@@ -3,10 +3,10 @@
 Prerequisites
 The setups steps expect following tools installed on the system.
 
-- Git
-- Ruby [v2.7.2](https://ruby-doc.org/core-2.7.2/)
-- Rails [v5.4.2](https://guides.rubyonrails.org/v5.0/)
-- [Semantic-UI](https://semantic-ui.com)
+Git
+Ruby [v2.7.2](https://ruby-doc.org/core-2.7.2/)
+Rails [v5.4.2](https://guides.rubyonrails.org/v5.0/)
+[Semantic-UI](https://semantic-ui.com)
 
 1. Check out the repository
 git clone git@github.com/MisterCxmpy/rails-message-board.git
