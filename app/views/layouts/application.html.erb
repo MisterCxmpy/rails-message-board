@@ -10,6 +10,28 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="ui inverted segment">
+      <div class="ui container">
+        <div class="ui inverted secondary menu">
+          <a class="active item">
+            Home
+          </a>
+          <a class="item">
+            Messages
+          </a>
+          <a class="item">
+            Friends
+          </a>
+          <div class="right menu">
+            <a class="item">
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui container">
+      <%= yield %>
+    </div>
   </body>
 </html>
