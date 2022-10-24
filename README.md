@@ -1,24 +1,24 @@
-# README
+# **Messaging board**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prerequisites
+The setups steps expect following tools installed on the system.
 
-Things you may want to cover:
+- Git
+- Ruby [v2.7.2](https://ruby-doc.org/core-2.7.2/)
+- Rails [v5.4.2](https://guides.rubyonrails.org/v5.0/)
+- [Semantic-UI](https://semantic-ui.com)
 
-* Ruby version
+1. Check out the repository
+git clone git@github.com/MisterCxmpy/rails-message-board.git
 
-* System dependencies
+2. Run a db migration
+In the directory run "rails db:migrate"
 
-* Configuration
+3. Start the Rails server
+You can start the rails server using the command given below.
+rails s
 
-* Database creation
+Default username: Cosgun
+Default password: password
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And now you can visit the site with the URL http://localhost:3000
