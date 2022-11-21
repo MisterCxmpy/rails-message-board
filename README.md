@@ -14,10 +14,10 @@ The setups steps expect following tools installed on the system.
 git clone git@github.com/MisterCxmpy/rails-message-board.git
 ```
 
-##### 2. Run a db migration
+##### 2. Run bundle install
 
 ```bash
-rails db:migrate
+bundle install
 ```
 
 ##### 3. Start the Rails server
